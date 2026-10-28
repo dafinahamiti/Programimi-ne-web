@@ -1,0 +1,55 @@
+<formulari html>
+<html>
+    <head>
+        <title>Formular per klubin e studimit</title>    
+
+        <!--<link rel="stylesheet" href="style.css">-->
+    
+    </head>
+    <body>
+        <h1>Regjistrimi ne klubin e studimit </h1>   
+        
+        <p>Shembull i perdorimit te formularit</p>
+
+
+        <form action="fshmn.html" method="post">
+            <p>
+                <label for="emri">Emri:</label> <br>
+                <input type="text" id="emri" name="emri" required>
+            </p>
+            <p>
+                <label for="email"> Email: </label><br>
+                <input type="email" id="email" name="email" required>
+            </p>
+            <p>
+                <label for="tema"> Tema: </label><br>
+                <select id="tema" name="tema" required>
+                <option value="">Zgjidhni nje teme</option>
+                <option value="matematike">Matematike</option>
+                <option value="informatike">Informatike</option>
+                <option value="fizike">Fizik</option>
+               
+                </select>
+            </p>
+            <p>
+                 <label for="shenim"> Shenim: </label><br>
+                 <textarea id="shenim" name="shenim" rows="4" cols="50"></textarea>                 
+            </p>
+
+            <p>
+                <label for="njoftim">Deshironi te merrni njoftime?</label><br>
+                <input type="checkbox" id="njoftime" name="njoftim" value="po"> Po
+
+            </p>
+            <p>
+                 <input type="submit" value="Regjistrohu">
+            </p>
+
+        </form>
+
+        <a href="mailto:dafina2005hamiti@gamil.com">
+            Na kontaktoni   
+        </a>
+    </body>
+</html>
+</formulari>

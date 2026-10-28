@@ -1,0 +1,79 @@
+
+/* Pamja e pergjithshme e faqes */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    margin: 5;
+    padding: 30px;
+}
+
+/* Titulli kryesor */
+h1 {
+    text-align: center;
+    color: #c82823;
+}
+
+/* Paragrafi */
+body > p {
+    text-align: center;
+    color: #555;
+}
+
+/* Formulari */
+form {
+    background-color: rgb(239, 217, 217);
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px lab(52.88% 58.11 33.11 / 0.102);
+}
+
+/* Etiketat */
+label {
+    font-weight: bold;
+    color: hwb(0 0% 100%);
+}
+
+/* Fushat e tekstit dhe lista */
+input[type="text"],
+input[type="email"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+/* Fusha kur klikohet */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: hwb(65 13% 7%);
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    margin-top: 10px;
+}
+
+/* Butoni Regjistrohu */
+input[type="submit"] {
+    background-color: lab(47.62% 29.93 0.57);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Kur e vendosim mausin mbi buton */
+input[type="submit"]:hover {
+    background-color: hsl(9, 64%, 29%);
+}
