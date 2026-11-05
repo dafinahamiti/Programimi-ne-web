@@ -1,0 +1,67 @@
+/* 1. Modeli i kutise */
+* {
+    box-sizing: border-box;
+}
+
+/* 2. Pamja e faqes */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: black;
+    background: #eef2f6;
+}
+
+/* 3. Permasat e faqes */
+.faqja {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 20;
+}
+
+/* 4. Titulli kryesor */
+h1 {
+    font-size: 28px;
+    color: #7e1720;
+}
+
+/* 5. Titujt e seksioneve */
+h2 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+/* 6. Kutitë e permbajtjes */
+.kuti {
+    background: white;
+    padding: 20px;
+    border: 1px solid #bac7d5;
+    margin-bottom: 16px;
+}
+
+/* 7. Teksti i theksuar */
+.theks {
+    color: #dd4949;
+    font-weight: bold;
+}
+
+/* 8. Butoni */
+.buton {
+    display: inline-block;
+    background: #586211;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+}
+
+/* 9. Kur vendosim mausin mbi buton */
+.buton:hover {
+    background: #090c00;
+}
+
+/* 10. Kur navigojme me tastieren Tab */
+a:focus-visible {
+    outline: 3px solid #fffdfb;
+    outline-offset: 10px;
+}
