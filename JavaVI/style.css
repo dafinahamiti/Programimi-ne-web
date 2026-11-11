@@ -1,0 +1,66 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5dade;
+    margin: 0;
+    padding: 25px;
+    color: #173b64;
+}
+
+h1 {
+    color: black;
+    font-size: 28px;
+}
+
+body > p {
+    margin-bottom: 18px;
+}
+
+section {
+    background-color: white;
+    border: 1px solid #b7c9dc;
+    border-radius: 9px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.aktivitetet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+}
+
+.aktivitetet section {
+    min-height: 236px;
+    margin: 0;
+}
+
+h2 {
+    font-size: 20px;
+    color: black;
+}
+
+.aktivitetet section p:first-of-type {
+    color: #050f56;
+    font-weight: bold;
+}
+
+a {
+    display: inline-block;
+    background-color: #174e85;
+    color: white;
+    text-decoration: none;
+    padding: 12px 16px;
+}
+
+a:hover {
+    background-color: #2876b5;
+}
+
+.aktivitetet + section {
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    margin-top: 15px;
+    border-radius: 10px;
+}
