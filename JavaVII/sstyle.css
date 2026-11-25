@@ -1,0 +1,104 @@
+body {
+    background-color: rgb(208, 223, 224);
+}
+
+main {
+    max-width: 760;
+    padding: 2opx;
+    background-color: white;
+}
+
+h1 {
+    color: #1733DE;
+}
+
+section {
+    border: 2px solid #405b84;
+    padding: px;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #f4ffef;
+    padding: 10px;
+    text-align: left;
+}
+
+caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+thead {
+    background-color: #e2ecf7;
+}
+
+h2 {
+    font-size: 21px;
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.fushe {
+    margin-bottom: 15px;
+}
+
+input, select, textarea, button {
+    font: inherit;
+}
+
+input. select, textarea {
+    width: 100%;
+    border: 1px solid #54748b;
+    padding: 9px;
+}
+
+button {
+    background-color: #17473;
+    color: white;
+    border: 0;
+    padding: 10px 18px;
+    cursor: pointer;
+}
+.shenim {
+    color: #475569;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #103452;
+}
+
+input:focus-visible, select:focus-visible,textarea:focus-visible, button:focus-visible {
+    outline: 3px solid #a34b00;
+    outline-offset: 2px;
+}
+.zgjedhje { 
+    display: flex; 
+    gap: 8px; 
+    align-items: flex-start; 
+}
+
+.zgjedhje input { 
+    width: auto; 
+    margin-top: 6px; 
+}
+
+.zgjedhje label { 
+    font-weight: normal; 
+}
+
+textarea { 
+    resize: vertical; 
+}
+

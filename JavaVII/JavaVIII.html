@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <title>Java VII - Persertije shembulli Dyqani i materialeve shkollore</title>
+        <link rel="stylesheet" href="sstyle.css">
+    </head>
+    <body>
+        <main>
+            <h1>Punetoria e fotografise</h1>
+            <section>
+                <h2>Informacioni</h2>
+                <table>
+                    <caption>Orari i punetoreve</caption>
+                    <thead>
+                        <tr>
+                            <th>Dita</th>
+                            <th>Ora</th>
+                            <th>Tema</th>
+                        </tr>  
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>E hene</td>
+                            <td>10:00</td>
+                            <td>Drita</td>
+                        </tr>
+                        <tr>
+                            <td>E merkure</td>
+                            <td>12:00</td>
+                            <td>Kompozimi</td>
+                        </tr>
+                        <tr>
+                            <td>E premte</td>
+                            <td>14:00</td>
+                            <td>Praktike</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section> 
+            <section>
+                <h2>Formulari</h2>
+                <form method="post" action="punetoria.png">
+                    <div class="fushe">
+                        <label for="emri">Emri:</label><br>
+                        <input type="text" id="emri" name="emri" required><br>
+                    </div>
+                    <div class="fushe">
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email" required><br>
+                    </div>
+                    <div class="fushe">
+                        <label for="dita">Zgjidh punetorine:</label><br>
+                        <select name="dita" id="dita">
+                            <option value="zgjidh">Zgjidh diten</option>
+                            <option value="hene">E hene - 10:00</option>
+                            <option value="merkure">E merkure - 12:00</option>
+                            <option value="premte">E premte - 14:00</option>
+                        </select> <br>
+                    </div>
+                    <div class="fushe">
+                        <label for="shenim">Cfare deshiron te mesosh? (opsionale)</label><br>
+                        <textarea id="shenim" name="shenim" rows="3" ></textarea><br>
+                    </div>
+                    <div class="fushe">
+                        <input id="rregullat" name="rregullat" type="checkbox" value="po" required>
+                        <label for="rregullat">Pranoj rregullat e punetorise:</label><br>
+                    </div>
+                    <button type="submit">Provo regjistrimin</button>
+                </form>
+            </section>
+        </main>
+    </body>

@@ -1,0 +1,55 @@
+body {
+    background-color: cadetblue;
+}
+main {
+    max-width: 760;
+    padding: 2opx;
+    background-color: white;
+}
+h1 {
+    color: #1733DE;
+}
+section {
+    border: 1px solid #bccf33;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #efefff;
+}
+caption {
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+thead {
+    background-color: antiquewhite;
+}
+h2 {
+    margin-bottom: 5px;
+}
+label {
+    display: block;
+}
+.fush {
+    margin-bottom: 10px;
+}
+input, select, textarea, button {
+    width: 100%;
+}
+button {
+    background-color: #1733DE;
+    color: white;
+    width: 250px;
+}
+.shenim {
+    color: #ef5685;
+    font-size: 14px;
+}
+button:hover {
+    background-color: #175321;
+}

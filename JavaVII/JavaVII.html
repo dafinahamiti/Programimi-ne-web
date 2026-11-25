@@ -1,0 +1,67 @@
+<html>
+    <head>
+        <title>Java VII - Persertije shembulli Dyqani i materialeve shkollore</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+        <h1>Dyqani i materialeve shkollore</h1>
+        <section>
+            <h2>Informacioni</h2>
+            <table>
+                <caption>Cmimet per njesi</caption>
+                <thead>
+                    <tr>
+                        <th>Artikulli</th>
+                        <th>Njesia</th>
+                        <th>Cmimi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Laps</td>
+                        <td>cope</td>
+                        <td>2.50</td>
+                    </tr>
+                <tr>
+                    <td>Stilolaps</td>
+                    <td>cope</td>
+                    <td>1.50</td>
+                </tr>
+                <tr>
+                    <td>Dosja</td>
+                    <td>cope</td>
+                    <td>3.50</td>
+                </tr>
+            </tbody>                     
+            </table>
+        </section>
+        <section>
+            <h2>Formulari</h2>
+            <form method="post" action="dyqani.php">
+                <div class="fushe">
+                    <label for="emri">Emri:</label>
+                    <input type="text" id="emri" name="emri" required>  
+                </div>
+                <div class="fushe">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="fushe">
+                    <label for="artikulli">Zgjedh artikullin:</label>
+                    <select name="artikulli" id="artikulli">
+                        <option value="laps">Laps</option>
+                        <option value="stilolaps">Stilolaps</option>
+                        <option value="dosja">Dosja</option>
+                    </select> 
+                </div>
+                <div class="fushe">
+                    <label for="sasia">Sasia(1-10):</label>
+                    <input type="number" id="sasia" name="sasia" min="1" max="10" step="1" required><br>
+                </div>
+               <button type="submit">Provo porosine</button>
+            </form>
+        </section>
+    </main>
+    </body>
+</htm>
